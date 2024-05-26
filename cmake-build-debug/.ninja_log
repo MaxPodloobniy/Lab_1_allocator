@@ -1,0 +1,9 @@
+# ninja log v5
+10	754	7384328641213507	src/CMakeFiles/prog.dir/main.c.obj	e98b3c3bfdcf085b
+98	1170	7384328645375431	src/CMakeFiles/prog.dir/allocator.c.obj	70dd089349b00a6d
+167	1446	7384328648129377	src/CMakeFiles/prog.dir/block.c.obj	59171add887c7d04
+302	2165	7384328655322833	src/CMakeFiles/prog.dir/tester.c.obj	b09357d723b2d7ba
+358	2468	7384328658347471	src/CMakeFiles/prog.dir/avl/avl.c.obj	d2dafe31451e7434
+11	645	7384329483241313	src/CMakeFiles/prog.dir/allocator.c.obj	70dd089349b00a6d
+14	1372	7384333665038498	src/CMakeFiles/prog.dir/kernel.c.obj	8e3e250631d71283
+1375	2278	7384333674056523	src/prog.exe	c19a59dfc0e445a7
