@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/prog.dir/main.c.o CMakeFiles/prog.dir/allocator.c.o CMakeFiles/prog.dir/block.c.o CMakeFiles/prog.dir/kernel.c.o CMakeFiles/prog.dir/tester.c.o CMakeFiles/prog.dir/avl/avl.c.o -o prog 

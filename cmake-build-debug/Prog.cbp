@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Prog"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prog">
+				<Option output="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/prog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_XOPEN_SOURCE=700"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 prog"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prog/fast">
+				<Option output="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/prog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_XOPEN_SOURCE=700"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 prog/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option working_dir="/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/allocator.c">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/allocator.h">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/avl/avl.c">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/avl/avl.h">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/block.c">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/block.h">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/kernel.c">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/kernel.h">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/main.c">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/tester.c">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/tester.h">
+			<Option target="prog"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/maxim/CLionProjects/Lab_1_allocator/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -111,13 +111,18 @@ void *mem_realloc(void *ptr, size_t size) {
         size = BLOCK_SIZE_MIN;
     size = ROUND_BYTES(size);
 
+    // Якщо ptr == NULL, виділяємо новий блок
     if (ptr == NULL)
         return mem_alloc(size);
 
     block_curr = payload_to_block(ptr);
     size_curr = block_get_size_curr(block_curr);
+
+    // Якщо розмір однаковий, повертаємо той самий блок
     if (size_curr == size)
         return ptr;
+
+    // Якщо новий розмір менший, розділяємо блок
     else if (size < size_curr) {
         struct block *split_block = block_split(block_curr, size);
         if (split_block != NULL) {
@@ -125,7 +130,8 @@ void *mem_realloc(void *ptr, size_t size) {
         }
         return ptr;
     }
-    // Increase in place
+
+    // Якщо новий розмір більший, пробуємо збільшити блок
     else {
         struct block *next_block = block_next(block_curr);
         if (!is_busy(next_block) && block_get_size_curr(block_curr) + block_get_size_curr(next_block) >= size) {
@@ -134,10 +140,10 @@ void *mem_realloc(void *ptr, size_t size) {
         }
     }
 
-    // If we can't resize in place, allocate a new block
+    // Якщо не вдалося збільшити, виділяємо новий блок
     new_ptr = mem_alloc(size);
     if (new_ptr != NULL) {
-        memcpy(new_ptr, ptr, size_curr < size ? size_curr : size); // Copy the minimum of old and new sizes
+        memcpy(new_ptr, ptr, size_curr < size ? size_curr : size); // Копіюємо мінімальний розмір
         mem_free(ptr);
     }
     return new_ptr;

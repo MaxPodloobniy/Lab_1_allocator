@@ -1,6 +1,6 @@
-C:/Users/Max Podloobniy/Desktop/allocator-io вариант 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Max Podloobniy/Desktop/allocator-io вариант 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Max Podloobniy/Desktop/allocator-io вариант 2/cmake-build-debug/src/CMakeFiles/prog.dir
-C:/Users/Max Podloobniy/Desktop/allocator-io вариант 2/cmake-build-debug/src/CMakeFiles/run.dir
-C:/Users/Max Podloobniy/Desktop/allocator-io вариант 2/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-C:/Users/Max Podloobniy/Desktop/allocator-io вариант 2/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/CMakeFiles/prog.dir
+/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/CMakeFiles/run.dir
+/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/maxim/CLionProjects/Lab_1_allocator/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

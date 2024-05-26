@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/prog.exe"
-		},
-		{
-			"path" : "src/prog.pdb"
+			"path" : "src/prog"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c17 -fdiagnostics-color=always"
+					"fragment" : "-g -std=c17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics"
 				},
 				{
 					"backtrace" : 2,
@@ -118,16 +115,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "prog",
-	"nameOnDisk" : "prog.exe",
+	"nameOnDisk" : "prog",
 	"paths" : 
 	{
 		"build" : "src",
